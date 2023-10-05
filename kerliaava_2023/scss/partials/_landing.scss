@@ -34,12 +34,12 @@
         font-family: 'Poppins', sans-serif;
         position: relative;
         color: #fff;
-        font-weight: 700;
+        font-weight: 200;
         font-size: 12px;
         transform: scale(2);
         letter-spacing: 10px;
         text-transform: uppercase;
-        padding: 8px;
+        margin-bottom: 12px;
 
 
         @include lg {

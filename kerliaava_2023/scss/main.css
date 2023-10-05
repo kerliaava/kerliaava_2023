@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@100&family=Poppins:wght@100;200;300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Josefin+Slab&display=swap");
 h2 {
   font-family: "poppins", sans-serif;
@@ -9,6 +6,7 @@ h2 {
   font-size: 13px;
   letter-spacing: 5px;
   z-index: 3;
+  font-weight: 300;
 }
 
 h3 {
@@ -199,12 +197,12 @@ a:visited {
   font-family: "Poppins", sans-serif;
   position: relative;
   color: #fff;
-  font-weight: 700;
+  font-weight: 200;
   font-size: 12px;
   transform: scale(2);
   letter-spacing: 10px;
   text-transform: uppercase;
-  padding: 8px;
+  margin-bottom: 12px;
 }
 @media (min-width: 1025px) {
   .landing .text {

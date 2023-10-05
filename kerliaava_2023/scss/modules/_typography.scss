@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@100&family=Poppins:wght@100;200;300;600&display=swap');
+
 
 $main-font: 'poppins',
 sans-serif;
@@ -15,6 +13,7 @@ h2 {
     font-size: 13px;
     letter-spacing: 5px;
     z-index: 3;
+    font-weight: 300;
 
 
 }
