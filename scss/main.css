@@ -192,6 +192,10 @@ a:visited {
   bottom: 0;
   z-index: -1;
 }
+.landing .centered-content {
+  width: 100%;
+  text-align: center;
+}
 .landing .text {
   font-family: "Poppins", sans-serif;
   color: #fff;
