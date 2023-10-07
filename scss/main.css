@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@100&family=Poppins:wght@100;200;300;600&display=swap");
 h1 {
   display: inline-block;
+  margin-left: 15px;
 }
 
 h2 {
