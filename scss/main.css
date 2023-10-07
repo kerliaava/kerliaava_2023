@@ -63,25 +63,24 @@ a:visited {
   font-family: "Poppins", sans-serif;
   color: #fff;
   font-weight: 400;
-  font-size: 9px;
-  letter-spacing: 10px;
+  font-size: 22px;
+  letter-spacing: 20px;
   text-transform: uppercase;
   margin-bottom: 22px;
   text-align: center;
 }
 @media (min-width: 1025px) {
   .landing .text {
-    font-size: 45px;
-    letter-spacing: 14px;
+    font-size: 4em;
+    letter-spacing: 30px;
     margin-bottom: 33px;
     font-weight: 200;
   }
 }
 @media (min-width: 768px) {
   .landing .text {
-    font-size: 25px;
-    transform: scale(2);
-    letter-spacing: 14px;
+    font-size: 4em;
+    letter-spacing: 30px;
     font-weight: 200;
   }
 }
