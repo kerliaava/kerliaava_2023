@@ -178,7 +178,7 @@ a:visited {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding-left: 1em;
+  text-align: center;
 }
 .landing #background-video {
   width: 100vw;
@@ -194,7 +194,6 @@ a:visited {
 }
 .landing .text {
   font-family: "Poppins", sans-serif;
-  position: relative;
   color: #fff;
   font-weight: 400;
   font-size: 9px;
@@ -202,6 +201,7 @@ a:visited {
   letter-spacing: 10px;
   text-transform: uppercase;
   margin-bottom: 22px;
+  text-align: center;
 }
 @media (min-width: 1025px) {
   .landing .text {
@@ -223,10 +223,12 @@ a:visited {
 .landing .subtitle {
   text-align: center;
   font-size: 9px;
+  letter-spacing: 3px;
 }
 @media (min-width: 768px) {
   .landing .subtitle {
     font-size: 13px;
+    letter-spacing: 5px;
   }
 }
 
