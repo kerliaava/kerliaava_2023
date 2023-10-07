@@ -46,6 +46,7 @@ main {
 
 .panel {
   min-height: 100vh;
+  text-align: center;
 }
 
 .color-pink {
