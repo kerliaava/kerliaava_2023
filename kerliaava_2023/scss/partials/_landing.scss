@@ -1,0 +1,129 @@
+.landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 1em;
+}
+
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+
+    .text {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        color: #fff;
+        font-weight: 200;
+        font-size: 15px;
+        transform: scale(2);
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+        padding: 0 10px;
+
+
+        @include lg {
+            font-size: 45px;
+            transform: scale(2);
+            letter-spacing: 14px;
+            margin-bottom: 33px;
+
+        }
+
+        @include md {
+            font-size: 25px;
+            transform: scale(2);
+            letter-spacing: 14px;
+
+        }
+    }
+
+    .text:before {
+        left: 1.5px;
+        clip: rect(132px, 550px, 101px, 30px);
+        text-shadow: -1px 0 #E93732;
+        animation: glitch-1-xs 2s linear infinite reverse;
+        -webkit-animation: glitch-1-xs 2s linear infinite reverse;
+        color: white;
+        content: attr(data-text);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: black;
+        overflow: hidden;
+        top: 0;
+        padding: 8px;
+
+        @include lg {
+            left: 3px;
+            padding: 30px;
+            margin-bottom: 5em;
+            text-shadow: -2px 0 #E93732;
+            animation: glitch-1 2s linear infinite reverse;
+            -webkit-animation: glitch-1 2s linear infinite reverse;
+        }
+
+        @include md {
+            left: 2px;
+            padding: 23.1px;
+            margin-bottom: 5em;
+            text-shadow: -2px 0 #E93732;
+            animation: glitch-1-md 2s linear infinite reverse;
+            -webkit-animation: glitch-1-md 2s linear infinite reverse;
+        }
+
+    }
+
+    .text:after {
+        left: -1.5px;
+        clip: rect(132px, 550px, 101px, 30px);
+        text-shadow: -1px 0 blue;
+        animation: glitch-2-xs 2s linear infinite reverse;
+        -webkit-animation: glitch-2-xs 2s linear infinite reverse;
+        color: white;
+        content: attr(data-text);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: black;
+        overflow: hidden;
+        top: 0;
+        padding: 8px;
+
+        @include lg {
+            left: -3px;
+            padding: 30px;
+            text-shadow: -2px 0 blue;
+            animation: glitch-2 2s linear infinite reverse;
+            -webkit-animation: glitch-2 2s linear infinite reverse;
+        }
+
+        @include md {
+            left: -2px;
+            padding: 30px;
+            text-shadow: -2px 0 blue;
+            animation: glitch-2-md 2s linear infinite reverse;
+            -webkit-animation: glitch-2-md 2s linear infinite reverse;
+        }
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 10px;
+
+        @include md {
+            font-size: 13px
+        }
+   
+
